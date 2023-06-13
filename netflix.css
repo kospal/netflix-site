@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    background-color: black;
+  }
+
+  .featured-img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .button-div {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+  }
+
+  .title {
+    color: white;
+  }
+
+  .img-originals {
+    width: auto;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  .div-originals {
+    margin-left: 10px;
+  }
+
+  .originals {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    overflow-x: scroll;
+    width: -moz-available;
+    overflow:hidden;
+  }
+
+  .play-btn {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .mylist-btn {
+    color: white;
+    background-color: rgba(109, 109, 110, 0.7);
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .h1-originals {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .h1-title2,
+  .h1-title3,
+  .h1-title4 {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .div-trending {
+    margin-left: 10px;
+  }
+
+  .trending {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    position: absolute;
+    top: 400px;
+    width: -moz-available;
+    overflow:hidden;
+  }
+
+  .img-trending {
+    width: 170px;
+    height: 150px;
+    cursor: pointer;
+  }
+
+  .div-popular {
+    margin-left: 10px;
+  }
+
+  .popular {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    position: absolute;
+    top: 630px;
+    padding-bottom: 40px;
+    width: -moz-available;
+    overflow:hidden;
+  }
+
+  .img-popular {
+    width: 170px;
+    height: 150px;
+    cursor: pointer;
+  }
+
+  #container {
+    position: relative;
+  }
+
+  .wishlist {
+    position: absolute;
+    top: 260px;
+  }
+
+  .h1-title4 {
+    position: absolute;
+    top: 560px;
+  }
+
+  .bi-arrow-left-circle-fill{
+    position: absolute;
+    top:600px;
+    left:0px;
+    z-index: 1;
+    cursor: pointer;
+    color:white;
+  }
+
+  .bi-arrow-right-circle-fill{
+    position: absolute;
+    top:600px;
+    right:0px;
+    margin-left:10px;
+    z-index: 1;
+    cursor: pointer;
+    color:white;
+    
+  }
+
+
+  .arrow-left-circle-fill{
+    position: absolute;
+    top:950px;
+    left:0px;
+    z-index: 1;
+    cursor: pointer;
+    color:white;
+  }
+
+  .arrow-right-circle-fill{
+    position: absolute;
+    top:950px;
+    right:0px;
+    margin-left:10px;
+    z-index: 1;
+    cursor: pointer;
+    color:white;
+    
+  }
+
+
+  .rrow-left-circle-fill{
+    position: absolute;
+    top:1170px;
+    left:0px;
+    z-index: 1;
+    cursor: pointer;
+    color:white;
+  }
+
+  .rrow-right-circle-fill{
+    position: absolute;
+    top:1170px;
+    right:0px;
+    margin-left:10px;
+    z-index: 1;
+    cursor: pointer;
+    color:white;
+    
+  }
+
+  .videos11{
+    position:absolute;
+    left: 25%;
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    display: none;
+    z-index: 0;
+  }
+
+  
+
+  .videos{
+    position:absolute;
+    top:800px;
+  }
+
+  .if-div{
+    width: 100%;
+    position: absolute;
+    padding: 5%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .xbutton{
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 7px;
+    margin-top: 5px;
+    z-index: 1;
+    cursor: pointer;
+    
+  }
