@@ -1,7 +1,91 @@
-body {
+
+  body {
     margin: 0;
     background-color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+  
+  .featured-img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+  }
+  
+  .button-div {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  /* Responsive styles for smaller screens */
+  
+  @media (max-width: 768px) {
+    .featured-img {
+      height: 250px;
+    }
+  
+    .button-div {
+      top: 100px;
+      left: 20px;
+    }
+  
+    .h1-title4 {
+      top: 500px;
+    }
+  
+    .bi-arrow-left-circle-fill,
+    .bi-arrow-right-circle-fill,
+    .arrow-left-circle-fill,
+    .arrow-right-circle-fill,
+    .rrow-left-circle-fill,
+    .rrow-right-circle-fill {
+      top: 650px;
+    }
+    
+    .rrow-left-circle-fill,
+    .rrow-right-circle-fill {
+      top: 900px;
+    }
+  }
+  
+  /* Additional responsive styles for smaller screens */
+  
+  @media (max-width: 576px) {
+    .featured-img {
+      height: 150px;
+    }
+  
+    .button-div {
+      top: 80px;
+      left: 10px;
+    }
+  
+    .h1-title4 {
+      top: 450px;
+    }
+  
+    .bi-arrow-left-circle-fill,
+    .bi-arrow-right-circle-fill,
+    .arrow-left-circle-fill,
+    .arrow-right-circle-fill,
+    .rrow-left-circle-fill,
+    .rrow-right-circle-fill {
+      top: 600px;
+    }
+    
+    .rrow-left-circle-fill,
+    .rrow-right-circle-fill {
+      top: 850px;
+    }
+  }
+  
 
   .featured-img {
     width: 100%;
