@@ -171,15 +171,14 @@
     margin-left: 10px;
   }
 
-  .trending {
+ .trending {
     display: flex;
     flex-direction: row;
     margin-left: 20px;
-    position: absolute;
-    top: 400px;
-    width: -moz-available;
-    overflow:hidden;
-  }
+    padding-bottom: 40px;
+    width: 100%; /* Use the full width */
+    overflow: hidden;
+}
 
   .img-trending {
     width: 170px;
