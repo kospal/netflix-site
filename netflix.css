@@ -169,6 +169,7 @@
 
   .div-trending {
     margin-left: 10px;
+    top:380px;
   }
 
  .trending {
@@ -176,7 +177,7 @@
     flex-direction: row;
     margin-left: 20px;
     padding-bottom: 40px;
-    width: 100%; /* Use the full width */
+    width: 140px; /* Use the full width */
     overflow: hidden;
 }
 
