@@ -96,7 +96,7 @@
     width: 100%;
     height: 400px;
     background-size: cover;
-    position: relative;
+    position: sticky;
     z-index: -1;
     object-fit: cover;
   }
