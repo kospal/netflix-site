@@ -77,12 +77,12 @@
     .arrow-right-circle-fill,
     .rrow-left-circle-fill,
     .rrow-right-circle-fill {
-      top: 600px;
+      display: none;
     }
     
     .rrow-left-circle-fill,
     .rrow-right-circle-fill {
-      top: 850px;
+      display: none;
     }
   }
   
