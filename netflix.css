@@ -173,12 +173,14 @@
   }
 
  .trending {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    padding-bottom: 40px;
-    width: 140px; /* Use the full width */
-    overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   margin-left: 20px;
+   padding-bottom: 40px;
+   width: 100%;
+   overflow: hidden;
+   position: absolute;
+   top: 400px;
 }
 
   .img-trending {
