@@ -69,7 +69,7 @@
 
     .child{
       position:absolute;
-      top:10%;
+      top:50%;
     }
     
     .button-div {
@@ -103,6 +103,7 @@
     background-size: cover;
     z-index: -1;
     object-fit: cover;
+    position:fixed;
   }
 
   .button-div {
