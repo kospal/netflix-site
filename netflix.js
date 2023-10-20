@@ -277,4 +277,8 @@ $(".rrow-right-circle-fill").on( "click",function () {
 });
 //////////////////////////////////////////////////////////////////////////////
 
+if (window.innerWidth > 768) { // Adjust the screen width condition as needed
+  $("#videos11")[0].scrollIntoView();
+}
+
 
