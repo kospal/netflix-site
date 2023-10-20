@@ -248,7 +248,7 @@
   .bi-arrow-left-circle-fill{
     position: absolute;
     top:600px;
-    left:0px;
+    left:3%;
     z-index: 1;
     cursor: pointer;
     color:white;
@@ -257,7 +257,7 @@
   .bi-arrow-right-circle-fill{
     position: absolute;
     top:600px;
-    right:0px;
+    right:3%;
     margin-left:10px;
     z-index: 1;
     cursor: pointer;
@@ -269,7 +269,7 @@
   .arrow-left-circle-fill{
     position: absolute;
     top:950px;
-    left:0px;
+    left:3%;
     z-index: 1;
     cursor: pointer;
     color:white;
@@ -278,7 +278,7 @@
   .arrow-right-circle-fill{
     position: absolute;
     top:950px;
-    right:0px;
+    right:3%;
     margin-left:10px;
     z-index: 1;
     cursor: pointer;
@@ -290,7 +290,7 @@
   .rrow-left-circle-fill{
     position: absolute;
     top:1170px;
-    left:0px;
+    left:3%;
     z-index: 1;
     cursor: pointer;
     color:white;
@@ -299,7 +299,7 @@
   .rrow-right-circle-fill{
     position: absolute;
     top:1170px;
-    right:0px;
+    right:3%;
     margin-left:10px;
     z-index: 1;
     cursor: pointer;
