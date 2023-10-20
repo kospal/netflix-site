@@ -73,11 +73,15 @@
 
     .videos11 {
     position:relative; 
-    width: 100%;
+    width: 500px;
     height: 600px;
     background-color: white;
     
   }
+
+    .if-div{
+      width:450px;
+    }
 
     .parent{
       position:relative;
