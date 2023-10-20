@@ -66,8 +66,8 @@
 
 /* Additional responsive styles for smaller screens */
 @media (max-width: 576px) {
-  .featured-img {
-    height: 150px;
+  .featured {
+    display:none;
   }
 
   .button-div {
