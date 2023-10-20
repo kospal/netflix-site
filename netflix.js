@@ -224,7 +224,7 @@ const div_originals = document.getElementById("originals");
         
         let leftPos = $(".originals").scrollLeft();
         $(".originals").animate({
-        scrollLeft: leftPos - 500
+        scrollLeft: leftPos - 300
         }, 100);
       });
 
@@ -233,7 +233,7 @@ const div_originals = document.getElementById("originals");
         
         let leftPos = $(".originals").scrollLeft();
         $(".originals").animate({
-        scrollLeft: leftPos + 500
+        scrollLeft: leftPos + 300
         }, 100);
       });
 //////////////////////////////////////////////////////////////////////////////
@@ -243,7 +243,7 @@ const div_originals = document.getElementById("originals");
               
         let leftPos = $(".trending").scrollLeft();
         $(".trending").animate({
-        scrollLeft: leftPos - 500
+        scrollLeft: leftPos - 300
         }, 100);
       });
 
@@ -252,7 +252,7 @@ const div_originals = document.getElementById("originals");
         
         let leftPos = $(".trending").scrollLeft();
         $(".trending").animate({
-        scrollLeft: leftPos + 500
+        scrollLeft: leftPos + 300
         }, 100);
       });
 //////////////////////////////////////////////////////////////////////////////
@@ -263,7 +263,7 @@ $(".rrow-left-circle-fill").on( "click",function () {
               
   let leftPos = $(".popular").scrollLeft();
   $(".popular").animate({
-  scrollLeft: leftPos - 500
+  scrollLeft: leftPos - 300
   }, 100);
 });
 
@@ -272,7 +272,7 @@ $(".rrow-right-circle-fill").on( "click",function () {
   
   let leftPos = $(".popular").scrollLeft();
   $(".popular").animate({
-  scrollLeft: leftPos + 500
+  scrollLeft: leftPos + 300
   }, 100);
 });
 //////////////////////////////////////////////////////////////////////////////
