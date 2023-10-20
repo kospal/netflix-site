@@ -99,19 +99,26 @@
     top: 450px;
   }
 
-  .bi-arrow-left-circle-fill,
-  .bi-arrow-right-circle-fill,
-  .arrow-left-circle-fill,
-  .arrow-right-circle-fill,
-  .rrow-left-circle-fill,
-  .rrow-right-circle-fill {
-    display: none;
+ .bi-arrow-left-circle-fill{
+    top:180px !important;
   }
+  .bi-arrow-right-circle-fill{
+    top:180px !important;
+  }
+  .arrow-left-circle-fill{
+    top:550px !important;
+  }
+  .arrow-right-circle-fill
+   {
+    top:550px !important;
+    
+   }
 
   .rrow-left-circle-fill,
   .rrow-right-circle-fill {
-    display: none;
+    top:780px !important;
   }
+}
 }
   
 
