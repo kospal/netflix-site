@@ -78,12 +78,8 @@
     height: 400px !important;
     width: 100% !important;
     left: 0 !important;
+    top: 50% !important;
  }
-
-  .button-div {
-    top: 80px;
-    left: 10px;
-  }
 
   .h1-title4 {
     top: 450px;
