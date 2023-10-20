@@ -72,10 +72,11 @@
     }
 
     .videos111 {
-    position:relative; 
+    position:absolute !important; 
     width: 500px !important;
     height: 600px;
     background-color: white;
+    left:0 !important;
     
   }
 
