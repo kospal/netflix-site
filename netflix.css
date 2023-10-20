@@ -5,7 +5,7 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
-  .featured-img {
+  .featured-img{
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -18,11 +18,44 @@
     position: absolute;
     top: 150px;
     left: 40px;
+
+    .play-btn{
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: background-color 0.3s ease;
+      border: 2px solid whitesmoke;
+      margin-bottom: 20px;
+      color: aliceblue;
+    }
+    .play-btn i{
+      color: rgb(247, 31, 31)
+    }
+    .play-btn:hover {
+      background-color: black;
+      color: aliceblue;
+      border: 2px solid whitesmoke;
+    }
+    .mylist-btn{
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: background-color 0.3s ease;
+      border: 2px solid whitesmoke;
+      margin-bottom: 20px;
+      color: aliceblue;
+    }
+    .mylist-btn:hover {
+      background-color: black;
+      color: aliceblue;
+      border: 2px solid whitesmoke;
+    }
+    .title {
+      color: rgb(237, 12, 12);
+      text-transform: uppercase;
+      font-weight: 550;
+    }
   }
-  
-  .title {
-    color: white;
-  }
+
+
+
+
   
   /* Responsive styles for smaller screens */
   
