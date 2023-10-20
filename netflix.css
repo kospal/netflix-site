@@ -20,6 +20,18 @@
   left: 40px;
 }
 
+.originals,
+.trending,
+.popular,
+.xbutton {
+  width: 100%;
+  margin:0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .title {
   color: white;
 }
