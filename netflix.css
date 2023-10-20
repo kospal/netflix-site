@@ -70,6 +70,10 @@
     display:none;
   }
 
+ .button-div{
+  display:none;
+ }
+
   .button-div {
     top: 80px;
     left: 10px;
