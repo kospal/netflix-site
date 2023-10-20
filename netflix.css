@@ -68,6 +68,8 @@
 @media (max-width: 576px) {
   .featured {
     display:none;
+    margin: 0;
+    padding: 0;
   }
 
  .button-div{
