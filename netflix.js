@@ -52,7 +52,7 @@ const div_originals = document.getElementById("originals");
 
            $(".div-originals").on("click", function() {
            
-              $(".videos111").show();
+              $(".videos11").show();
               $(".xbutton").show();
               $("#videos11")[0].scrollIntoView(); //για να πηγαινει η οθονη στα βιντεο
             });
@@ -105,7 +105,7 @@ const div_originals = document.getElementById("originals");
 
           $(".div-trending").on("click", function() {
            
-            $(".videos111").show();
+            $(".videos11").show();
             $(".xbutton").show();
             $("#videos11")[0].scrollIntoView();
            
@@ -151,7 +151,7 @@ const div_originals = document.getElementById("originals");
 
           $(".div-popular").on("click", function() {
            
-            $(".videos111").show();
+            $(".videos11").show();
             $(".xbutton").show();
             $("#videos11")[0].scrollIntoView();
            
@@ -188,7 +188,7 @@ const div_originals = document.getElementById("originals");
           
           $(".xbutton").on("click", function() {
            
-            $(".videos111").css("display","none");
+            $(".videos11").css("display","none");
             $('.if-div').attr('src',''); //για να κλεινει το βιντεο
           });
 
@@ -207,12 +207,12 @@ const div_originals = document.getElementById("originals");
            
         videos11.innerHTML =`<div><button id = "xbutton" class="xbutton">X</button> <iframe class="if-div" target="_blank" src='https://www.youtube.com/embed/_uza_APFdFo'></iframe></div>`
          
-            $(".videos111").show();
+            $(".videos11").show();
             $(".xbutton").show();
             $("#videos11")[0].scrollIntoView();
             
             $(".xbutton").on("click", function() {
-                $(".videos111").css("display","none");
+                $(".videos11").css("display","none");
                 $('.if-div').attr('src',''); //για να κλεινει
           });
       });
